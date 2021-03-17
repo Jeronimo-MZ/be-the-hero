@@ -1,15 +1,13 @@
 const express = require('express');
+const routes = require('./routes');
+const cors = require('cors');
 
 const app = express();
 port = 3333;
 
-
-app.get('/', (request, response) => {
-	return response.json({
-		evento: "Semana Omnistack 11.0",
-		aluno: "Jerónimo Matavel",
-	});
-});
+app.use(cors());
+app.use(express.json());
+app.use(routes);
 
 app.listen(port, () => {
 	console.log('backend started on port:', port);
