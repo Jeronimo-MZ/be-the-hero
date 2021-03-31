@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/icon.png"
-    }
+    },
+    "description": "O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.\n",
+    "githubUrl": "https://github.com/Jeronimo-MZ/be-the-hero"
   }
 }

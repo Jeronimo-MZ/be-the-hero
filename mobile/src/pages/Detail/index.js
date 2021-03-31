@@ -49,7 +49,8 @@ const Detail = () => {
 
                 <Text style={styles.incidentProperty}>Caso:</Text>
                 <Text style={styles.incidentValue}>{incident.title}</Text>
-
+				<Text style={styles.incidentProperty}>Descrição:</Text>
+				<Text style={styles.incidentValue}>{incident.description}</Text>
                 <Text style={styles.incidentProperty}>Valor:</Text>
                 <Text style={styles.incidentValue}>
                     {String(
